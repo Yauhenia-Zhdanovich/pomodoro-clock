@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pomodoro Clock</title>
+    <link rel="shortcut icon" href="./circle.ico">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>Pomodoro Clock</header>
+    <main>
+        <div class="wrapper">
+            <div class="border">
+                <div class="timer" id="timer">25
+                </div>
+            </div>
+        </div>
+        <div class="controls" id='controls'>
+            <div class="break_section" id='break'>
+                <div class='text'>Break Time</div>
+                <button id="breakMinusButton">-</button>
+                <div id="breakTime">5</div>
+                <button id='break'>+</button>
+            </div>
+            <div class="work_section" id='work'>
+                <div>Work Time</div>
+                <button>-</button>
+                <div id="workTime">10</div>
+                <button>+</button>
+            </div>
+        </div>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+</html>
